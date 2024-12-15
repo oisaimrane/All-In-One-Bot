@@ -1,9 +1,3 @@
-// Import required libraries
-const express = require('express');
-const { Client, GatewayIntentBits } = require('discord.js'); // Example bot code
-const app = express();
-const port = process.env.PORT || 4000;
-
 require("dotenv").config();
 require("module-alias/register");
 
